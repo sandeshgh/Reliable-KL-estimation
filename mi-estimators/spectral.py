@@ -1,3 +1,8 @@
+'''This code is based on the Spectral Normalization GAN code
+Github link of the spectral normalization : https://github.com/christiancosgrove/pytorch-spectral-normalization-gan
+We modify the code to be able to change the Lipschitz constant as we like instead of always fixing it equal to 1
+'''
+
 import torch
 from torch.optim.optimizer import Optimizer, required
 

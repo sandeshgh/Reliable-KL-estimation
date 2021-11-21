@@ -1,3 +1,8 @@
+''' This code is based on SMILE estimator implementation from ermongroup:
+Repo of SMILE implementation: https://github.com/ermongroup/smile-mi-estimator
+We have replicated smile estimators and run our own method in the same setup for the purpose of comparison
+'''
+
 import numpy as np
 import pandas as pd
 import torch

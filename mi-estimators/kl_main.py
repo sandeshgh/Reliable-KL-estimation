@@ -13,7 +13,7 @@ import pickle
 import time
 
 import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as sns
 from utils import *
 from estimators import estimate_mutual_information
 

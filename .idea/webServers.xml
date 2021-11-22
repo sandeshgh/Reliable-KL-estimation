@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5099e237-2167-4bd8-885a-51fb63531184" name="Lamda5">
+        <fileTransfer accessType="SFTP" host="10.90.33.207" port="22" sshConfigId="4586db61-cf5c-4b42-93ea-ed1135072ea9" sshConfig="sandesh@10.90.33.207:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

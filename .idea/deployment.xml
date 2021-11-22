@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sandesh@10.90.33.207:22 password">
+    <serverData>
+      <paths name="Lamda5">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sandesh/KL-estimation-neurips" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sandesh@10.90.33.207:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sandesh/KL-estimation-neurips" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

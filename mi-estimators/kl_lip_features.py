@@ -11,13 +11,21 @@ import torch.nn.functional as F
 import torch.optim as optim
 import pickle
 import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as sns
 from utils import *
 import time
+import argparse
 from estimators import estimate_mutual_information
 device = 'cuda1' if torch.cuda.is_available() else 'cpu'
 sample_size=8
-lambd = 0
+# lambd = 0
+
+parser = argparse.ArgumentParser('kl_Lipschitz_features')
+    # experimental results
+parser.add_argument('--lambd', type=float, default=0,
+                        help='location of the results')
+args = parser.parse_args()
+lambd = args.lambd
 
 def save_dict(filename, dict):
     file=filename+ '.pkl'
@@ -159,7 +167,7 @@ critic_params = {
 }
 
 opt_params = {
-    'iterations': 5000,
+    'iterations': 10000,
     'learning_rate': 5e-4,
 }
 
@@ -167,7 +175,7 @@ mi_numpys = dict()
 if data_params['cubic']:
     out_file = 'Lip_features_mi_lip_'+str(critic_params['lip'])+'_cubic'
 else:
-    out_file = 'Lip_features_mi_lam_'+str(lambd)+'_lip_g'+str(critic_params['g_lip'])+'_lip_' + str(critic_params['lip']) + '_D_'+str(critic_params['D'])+ '_gamma_'+str(critic_params['gamma'])+'_gauss5k'
+    out_file = 'Lip_features_mi_lam_'+str(lambd)+'_lip_g'+str(critic_params['g_lip'])+'_lip_' + str(critic_params['lip']) + '_D_'+str(critic_params['D'])+ '_gamma_'+str(critic_params['gamma'])+'_gauss10k'
 print(out_file)
 
 for critic_type in ['concat_lip_features']:
@@ -186,8 +194,3 @@ for critic_type in ['concat_lip_features']:
 
 save_dict(out_file, mi_numpys)
 
-    # estimator = 'smile'
-    # for i, clip in enumerate([1.0, 5.0]):
-    #     mi_params = dict(estimator=estimator, critic=critic_type, baseline='unnormalized')
-    #     mis = train_estimator(critic_params, data_params, mi_params, opt_params, clip=clip)
-    #     mi_numpys[critic_type][f'{estimator}_{clip}'] = mis

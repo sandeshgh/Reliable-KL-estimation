@@ -7,23 +7,42 @@ This repository is the official PyTorch implementation of [Reliable Estimation o
 ## Requirements
 
 To install requirements:
-
+The code has been tested on Python 3.7, PyTorch 1.6.0. The requirements are minimal : numpy, pandas, matplotlib. You could also run the following:
 ```setup
 pip install -r requirements.txt
 ```
 <!---
 [comment]: #  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 --->
-## Training
-
-To train the model(s) in the paper, run this command:
+## Training, Evaluation, Plotting
+### Mutual Information Estimation
+To estimate mutual information, run the following three commands:
 
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+python kl_main.py
+```
+
+```train
+python kl_lip_features.py --lambd 0
+```
+```train
+python kl_lip_features.py --lambd 1e-05
+```
+```train
+python kl_lip_features.py --lambd 0.001
+```
+```train
+python kl_lip_features.py --lambd 0.1
+```
+```train
+python kl_lip_features.py --lambd 1
+```
+```train
+python plot_method_array_short.py
 ```
 <!---
 >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
---->
+
 ## Evaluation
 
 To evaluate my model on ImageNet, run:
@@ -31,7 +50,7 @@ To evaluate my model on ImageNet, run:
 ```eval
 python eval.py --model-file mymodel.pth --benchmark imagenet
 ```
-<!---
+
 >📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 ## Pre-trained Models

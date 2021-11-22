@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d9f7c63-b004-449a-af88-272af954511c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mi-estimators/kl_lip_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/kl_lip_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/kl_lip_rkhs.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/kl_lip_rkhs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-estimators/kl_lip_rkhs.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mi-estimators/kl_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/kl_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/spectral.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/spectral.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +44,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mi-estimators" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mi-estimators" />
     </key>
@@ -64,7 +72,7 @@
       <updated>1635112508816</updated>
       <workItem from="1635112517024" duration="2457000" />
       <workItem from="1635526473851" duration="80000" />
-      <workItem from="1637520936066" duration="3450000" />
+      <workItem from="1637520936066" duration="10871000" />
     </task>
     <servers />
   </component>
@@ -82,5 +90,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1824" y="192" key="#SSH_Configurations" timestamp="1637531997239">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1824" y="192" key="#SSH_Configurations/0.0.1280.762/1280.23.1920.1057@0.0.1280.762" timestamp="1637531997239" />
+    <state x="0" y="23" width="1197" height="722" key="SettingsEditor" timestamp="1637535334986">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="1280" y="23" width="1920" height="1057" key="SettingsEditor/0.0.1280.762/1280.23.1920.1057@0.0.1280.762" timestamp="1637532118969" />
+    <state x="0" y="23" key="SettingsEditor/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1637535334986" />
+    <state x="0" y="0" width="1197" height="722" key="SettingsEditor/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1637532239345" />
+    <state x="578" y="201" width="489" height="525" key="ftp.server.browser" timestamp="1637535323019">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="2147" y="289" width="816" height="525" key="ftp.server.browser/0.0.1280.762/1280.23.1920.1057@0.0.1280.762" timestamp="1637532111944" />
+    <state x="578" y="201" width="489" height="525" key="ftp.server.browser/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1637535323019" />
+    <state x="578" y="201" width="558" height="525" key="ftp.server.browser/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1637532235537" />
   </component>
 </project>

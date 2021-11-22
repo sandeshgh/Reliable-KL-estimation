@@ -16,7 +16,8 @@ pip install -r requirements.txt
 --->
 ## Training, Evaluation, Plotting
 ### Mutual Information Estimation
-To estimate mutual information, run the following three commands:
+To estimate mutual information, run the following commands. Early commands generate results as pkl file while the last 
+command plots the figure based on previously saved pkl data:
 
 ```train
 python kl_main.py

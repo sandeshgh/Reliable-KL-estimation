@@ -108,5 +108,5 @@ for j in range(len(lambd_array)):
 
 
 plt.gcf().tight_layout()
-plt.savefig('smile_g_5_results_gauss_all_row_5k.png')
+plt.savefig('smile_ours_g_5_gauss_10k.png')
 plt.close()

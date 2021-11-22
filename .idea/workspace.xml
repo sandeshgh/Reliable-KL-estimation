@@ -22,9 +22,7 @@
     <list default="true" id="2d9f7c63-b004-449a-af88-272af954511c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/kl_lip_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/kl_lip_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/kl_lip_rkhs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-estimators/kl_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/kl_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-estimators/plot_method_array_short.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi-estimators/plot_method_array_short.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <updated>1635112508816</updated>
       <workItem from="1635112517024" duration="2457000" />
       <workItem from="1635526473851" duration="80000" />
-      <workItem from="1637520936066" duration="10871000" />
+      <workItem from="1637520936066" duration="11324000" />
     </task>
     <servers />
   </component>
